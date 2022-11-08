@@ -203,9 +203,11 @@ body {
 }
 
 @media only screen and (max-width: 558px) {
+    
     .container {
         flex-direction: column;
         height: auto;
+        margin-top: 20px;
     }
 
     .left {
@@ -223,7 +225,8 @@ body {
     }
 
     .title {
-        top: 5%;
+        position: static;
+        transform: translate(0,0);
     }
 
     .tip:nth-child(1) {
