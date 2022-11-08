@@ -232,6 +232,7 @@ body {
 	}
 
 	.title {
+		margin-top: 20px;
 		position: static;
 		transform: translate(0, 0);
 	}
